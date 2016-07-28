@@ -1,4 +1,4 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-* * * * * root /usr/bin/php -q -f /var/www/html/cron.php >> /var/www/html/files/cron.php.log
+* * * * * root /var/www/cron.sh
