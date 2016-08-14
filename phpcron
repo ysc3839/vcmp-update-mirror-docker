@@ -1,4 +1,4 @@
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-* */6 * * * root /var/www/cron.sh
+30 * * * * root /var/www/cron.sh
